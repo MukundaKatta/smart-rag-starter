@@ -1,1 +1,31 @@
-PLACEHOLDER
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
